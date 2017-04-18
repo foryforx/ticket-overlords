@@ -9,4 +9,6 @@ target
 *.class
 .sbtserver*
 project/*.sbt
-
+/bin/
+.cache*
+bin/*

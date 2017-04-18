@@ -16,6 +16,9 @@
      * template and passing a `String` message.
      *@
 	<p>
-		You want to go see a show? There are @{ticketsAvailable} tickets available!
+		You want to go see a show? There 
+		@{if (ticketsAvailable!=1) 'are' else 'is'} 
+		@{ticketsAvailable}
+		ticket@{if (ticketsAvailable!=1) 's' } available!
 	</p>
 }
