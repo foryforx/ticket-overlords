@@ -18,7 +18,7 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def index = Action {
-    val ticketsAvailable = 1000
+    val ticketsAvailable = 1
     //Ok(views.html.index("Your new application is ready."))
     Ok(views.html.index(ticketsAvailable))
   }
