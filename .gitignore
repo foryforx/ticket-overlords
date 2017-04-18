@@ -9,6 +9,10 @@ target
 *.class
 .sbtserver*
 project/*.sbt
-/bin/
 .cache*
-bin/*
+bin/filter/*
+bin/router/*
+bin/services/*
+bin/views/*
+bin/controllers/*
+

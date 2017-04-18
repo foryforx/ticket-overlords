@@ -17,7 +17,7 @@
      *@
 	<p>
 		You want to go see a show? There 
-		@if(ticketsAvailable <> 1){are}else{is}
+		@if(ticketsAvailable!= 1){are}else{is}
 		@ticketsAvailable
 		ticket
 		@if(ticketsAvailable!= 1){s}
